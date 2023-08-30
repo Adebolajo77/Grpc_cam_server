@@ -1,0 +1,131 @@
+
+syntax = "proto3";
+
+package pipeline;
+
+service StreamingPipeline {
+  rpc Stream1(StreamRequest) returns (stream StreamResponse1);
+  rpc Stream2(StreamRequest) returns (stream StreamResponse2);
+  rpc Stream3(StreamRequest) returns (stream StreamResponse3);
+  rpc Stream4(StreamRequest) returns (stream StreamResponse4);
+  rpc Stream5(StreamRequest) returns (stream StreamResponse5);
+  rpc Stream6(StreamRequest) returns (stream StreamResponse6);
+  rpc Stream7(StreamRequest) returns (stream StreamResponse7);
+  rpc Stream8(StreamRequest) returns (stream StreamResponse8);
+  rpc Stream9(StreamRequest) returns (stream StreamResponse9);
+  rpc Stream10(StreamRequest) returns (stream StreamResponse10);
+  rpc Stream11(StreamRequest) returns (stream StreamResponse11);
+  rpc Stream12(StreamRequest) returns (stream StreamResponse12);
+  rpc Stream13(StreamRequest) returns (stream StreamResponse13);
+  rpc Stream14(StreamRequest) returns (stream StreamResponse14);
+  rpc Stream15(StreamRequest) returns (stream StreamResponse15);
+  rpc Stream16(StreamRequest) returns (stream StreamResponse16);
+  rpc Stream17(StreamRequest) returns (stream StreamResponse17);
+  rpc Stream18(StreamRequest) returns (stream StreamResponse18);
+  rpc Stream19(StreamRequest) returns (stream StreamResponse19);
+  rpc Stream20(StreamRequest) returns (stream StreamResponse20);
+  rpc Stream21(StreamRequest) returns (stream StreamResponse21);
+  rpc Stream22(StreamRequest) returns (stream StreamResponse22);
+  rpc Stream23(StreamRequest) returns (stream StreamResponse23);
+  rpc Stream24(StreamRequest) returns (stream StreamResponse24);
+}
+
+message StreamRequest {
+  // Add fields here if needed
+}
+
+message StreamResponse1 {
+  bytes frame = 1;
+}
+
+message StreamResponse2 {
+  bytes frame = 1;
+}
+
+message StreamResponse3 {
+  bytes frame = 1;
+}
+
+message StreamResponse4 {
+  bytes frame = 1;
+}
+
+message StreamResponse5 {
+  bytes frame = 1;
+}
+
+message StreamResponse6 {
+  bytes frame = 1;
+}
+
+message StreamResponse7 {
+  bytes frame = 1;
+}
+
+message StreamResponse8 {
+  bytes frame = 1;
+}
+
+message StreamResponse9 {
+  bytes frame = 1;
+}
+
+message StreamResponse10 {
+  bytes frame = 1;
+}
+
+message StreamResponse11 {
+  bytes frame = 1;
+}
+
+message StreamResponse12 {
+  bytes frame = 1;
+}
+
+message StreamResponse13 {
+  bytes frame = 1;
+}
+
+message StreamResponse14 {
+  bytes frame = 1;
+}
+
+message StreamResponse15 {
+  bytes frame = 1;
+}
+
+message StreamResponse16 {
+  bytes frame = 1;
+}
+
+message StreamResponse17 {
+  bytes frame = 1;
+}
+
+message StreamResponse18 {
+  bytes frame = 1;
+}
+
+message StreamResponse19 {
+  bytes frame = 1;
+}
+
+message StreamResponse20 {
+  bytes frame = 1;
+}
+
+message StreamResponse21 {
+  bytes frame = 1;
+}
+
+message StreamResponse22 {
+  bytes frame = 1;
+}
+
+message StreamResponse23 {
+  bytes frame = 1;
+}
+
+message StreamResponse24 {
+  bytes frame = 1;
+}
